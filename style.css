@@ -1,0 +1,51 @@
+*{
+  margin:0px;
+  box-sizing: border-box;
+
+}
+main{
+  text-align:center;
+}
+form{
+  width:40%;
+  background-color:#3465a4;
+  border: solid 1px;
+  margin:auto;
+  height: 95%;
+  }
+
+.form-group{
+  display:flex;
+  flex-direction:column;
+  margin:20px 15px;
+  color:white;
+  gap:5px;
+}
+.quadro, select, textarea{
+ width:100%;
+ margin:0 auto;
+ border-radius:3px;
+ border:none;
+  padding:7px;
+}
+.btn{
+  width:100%;
+  margin:0 auto;
+  background-color:#73d216;
+  border:none;
+  cursor:pointer;
+  padding:15px;
+  border-radius:5px;
+  
+  
+}
+span{
+  font-size:75%;
+  
+}
+.btn:hover{
+  background-color:#cc0000;
+}
+input{
+  border-left:5px;
+}
